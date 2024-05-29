@@ -13,8 +13,8 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 - [ ] Tile Extra Handler
 
 ## Requiredment
-- python 3.13 or higher
-- gcc
+- Python 3.13 or higher
+- GCC
 
 ## Installation
 ```
@@ -29,5 +29,4 @@ $ python server.py
 
 ## Credits:
 - [ENet](https://github.com/lsalzman/enet): ENet reliable UDP networking library
-- [Modified Enet](https://github.com/ZTzTopia/enet/tree/20193ae48ef4bf2e7829105d7f7c9f185e580619): Modified enet ubisoft protocol
 - [PyEnet](https://github.com/aresch/pyenet): An ENet Python3 Wrapper
