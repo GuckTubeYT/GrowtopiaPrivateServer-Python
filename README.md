@@ -17,12 +17,14 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 - GCC
 
 ## Installation
+To install the server, run the following commands:
 ```
 $ python setup.py build
 $ python setup.py install
 ```
 
 ## Run Server
+Start the server with the command:
 ```
 $ python server.py
 ```
