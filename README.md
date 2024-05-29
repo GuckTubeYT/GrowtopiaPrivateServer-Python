@@ -20,10 +20,13 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 ## Requiredment
 - Python 3.13 or higher
 - GCC (GNU Compiler Collection)
-
+- Cython
+  
 ## Installation
 To install the server, run the following commands:
 ```
+$ python -m pip install setuptools
+$ python -m pip install Cython
 $ python setup.py build
 $ python setup.py install
 ```
