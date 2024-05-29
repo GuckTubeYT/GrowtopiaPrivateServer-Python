@@ -1,5 +1,5 @@
 <h1 align="center">Growtopia Private Server Python</h1>
-
+[![Github Action](https://img.shields.io/github/actions/workflow/status/KIPASGTS/GrowtopiaPrivateServer-Python/main.yml?branch=main&logo=github&logoColor=white)](https://github.com/KIPASGTS/GrowtopiaPrivateServer-Python/actions)
 An Growtopia private server made with python3 using enet wrapper with [pyenet](https://github.com/aresch/pyenet),
 
 ## Todo
