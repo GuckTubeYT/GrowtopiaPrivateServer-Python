@@ -4,6 +4,8 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 
 ## Todo
 - [X] World Handler
-- [ ] Multiplayer
+- [ ] Multiplayer (not tested)
 - [X] World Saving
 - [X] Player Saving
+- [ ] Player Inventory
+- [X] Player Movement
