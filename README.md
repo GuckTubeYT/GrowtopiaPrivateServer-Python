@@ -1,4 +1,6 @@
-<h1 align="center">Growtopia Pirvate Server Python</h1>
+<h1 align="center">Growtopia Private Server Python</h1>
+
+An Growtopia privat server made with python3 using enet wrapper with [pyenet](https://github.com/aresch/pyenet),
 
 ## Todo
 - [X] World Handler
