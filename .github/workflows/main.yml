@@ -27,12 +27,12 @@ jobs:
     - name: Install distutils pkg
       run: sudo apt-get install python3-distutils
 
-    - name: running ensurepip
-      run: python -m ensurepip --upgrade
+    - name: Install setup-tools
+      run: python3 -m pip install setuptools
       
-    - name: install distutils pip
-      run: pip install distutils
-
+    - name: Upgrade setup-tools
+      run: python3 -m pip install --upgrade setuptools
+      
     - name: Build enet
       run: python setup.py build
 
