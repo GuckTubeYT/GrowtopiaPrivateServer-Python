@@ -1,0 +1,31 @@
+name: Build and Install enet
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.12.2' 
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+
+    - name: Build enet
+      run: python setup.py build
+
+    - name: Install enet module wrapper
+      run: python setup.py install
