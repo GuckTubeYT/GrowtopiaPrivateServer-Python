@@ -27,6 +27,9 @@ jobs:
     - name: Install distutils pkg
       run: sudo apt-get install python3-distutils
 
+    - name: running ensurepip
+      run: python -m ensurepip --upgrade
+      
     - name: install distutils pip
       run: pip install distutils
 
