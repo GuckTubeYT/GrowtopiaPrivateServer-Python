@@ -9,6 +9,8 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 - [X] Player Saving
 - [ ] Player Inventory
 - [X] Player Movement
+- [ ] Improvement Security
+- [ ] Tile Extra Handler
 
 ## Requiredment
 - python 3.13 or higher
