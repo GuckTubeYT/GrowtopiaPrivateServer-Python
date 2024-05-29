@@ -19,3 +19,8 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 $ python setup.py build
 $ python setup.py install
 ```
+
+## Run Server
+```
+$ python server.py
+```
