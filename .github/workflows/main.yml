@@ -1,4 +1,4 @@
-name: Build and Install enet
+name: Build test
 
 on:
   push:
@@ -32,6 +32,9 @@ jobs:
       
     - name: Upgrade setup-tools
       run: python3 -m pip install --upgrade setuptools
+
+    - name: Installing Cython using pip
+      run: pip install Cython
       
     - name: Build enet
       run: python setup.py build
