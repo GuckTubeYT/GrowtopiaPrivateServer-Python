@@ -13,3 +13,9 @@ An Growtopia private server made with python3 using enet wrapper with [pyenet](h
 ## Requiredment
 - python 3.13 or higher
 - gcc
+
+## Installation
+```
+$ python setup.py build
+$ python setup.py install
+```
