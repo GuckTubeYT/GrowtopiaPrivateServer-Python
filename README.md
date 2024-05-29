@@ -16,7 +16,7 @@ An Growtopia private server made with python3 using enet wrapper with [PyEnet](h
 - [ ] Player Chat Input
 - [X] Player leave world
 - [X] Player enter world
-- [X] SHow world offer
+- [X] Show world offer
 
 ## Requiredment
 - Python 3.13 or higher
